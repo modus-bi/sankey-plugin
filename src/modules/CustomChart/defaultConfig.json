@@ -1,0 +1,83 @@
+{
+  "title": "Sankey (ECharts)",
+  "subtitle": "",
+  "chartType": "sankeyChart",
+  "showtitle": true,
+  "noexport": false,
+  "nocopy": false,
+  "filterMode": false,
+  "bigNumberClasses": [],
+  "orientation": "horizontal",
+  "margin": {
+    "l": 15,
+    "r": 15,
+    "t": 15,
+    "b": 0,
+    "pad": 0
+  },
+  "outline": {
+    "color": "#DDDFE4",
+    "enabled": true,
+    "width": 1
+  },
+  "balloonTemplate": null,
+  "balloon": {
+    "visible": false,
+    "fontsize": 12,
+    "color": null,
+    "bgcolor": null
+  },
+  "labels": {
+    "visible": true,
+    "inner": {
+      "fontsize": 12,
+      "color": "#FFF"
+    },
+    "outer": {
+      "fontsize": 12,
+      "color": "#FFF"
+    },
+    "value": {
+      "fontsize": 16,
+      "color": "#FFF",
+      "topMargin": 5
+    }
+  },
+  "columns": {},
+  "style": {
+    "selectedLineColor": "#ff0000",
+    "selectedLineOpacity": 0.2,
+    "unselectedLineOpacity": 0.02,
+    "unselectedNodeOpacity": 0.2
+  },
+  "hideSpinner": true,
+  "axes": [
+    {
+      "name": "filters",
+      "title": "Фильтры",
+      "type": "filters",
+      "fields": []
+    },
+    {
+      "name": "Категории",
+      "title": "Категории",
+      "type": "categories",
+      "fields": [],
+      "selectedFieldIndex": -2
+    },
+    {
+      "name": "series",
+      "type": "series",
+      "title": "Серии",
+      "fields": [],
+      "selectedFieldIndex": -1
+    },
+    {
+      "name": "Значения",
+      "title": "Значения",
+      "type": "values",
+      "fields": []
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",                        // Цель компиляции для ES5, если это важно для вашего UMD-бандла
+    "module": "ES6",                        // Webpack ожидает ES6-модули
+    "jsx": "react",                         // Для поддержки файла компонента React типа JSX/TSX
+    "strict": true,                         // Включение всех правил строгой типизации
+    "esModuleInterop": true,                // Для корректного импорта CommonJS модулей
+    "skipLibCheck": true,                   // Пропуск проверки типизации в node_modules
+    "moduleResolution": "node",             // Модульная система Node.js
+    "baseUrl": "./",                        // Базовый путь для проекта
+    "paths": {
+      "constants/*": ["./src/constants/*"]
+    }
+  },
+  "include": ["./src/**/*"],                // Включаем только исходные файлы TypeScript
+  "exclude": ["node_modules", "build"]     // Исключаем node_modules и папку сборки
+}
