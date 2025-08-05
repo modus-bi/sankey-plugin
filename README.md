@@ -26,8 +26,8 @@
 ---
 
 ## **📚 Документация**
-- [Общее описание плагинов ModusBI](https://kb.modusbi.ru/web/docs_product/content-view)
-- [Руководство по Plugins API](https://kb.modusbi.ru/web/docs_product/content-view/-/kb_asset_publisher/contentView/content/id/599400)
+- [Общее описание плагинов ModusBI](https://kb.modusbi.ru/web/docs_product/plaginy)
+- [Руководство по Plugins API](https://kb.modusbi.ru/web/docs_product/opisaniye-pluginsapi-v0.1-yadra-platformy-modus-bi)
 
 ---
 
