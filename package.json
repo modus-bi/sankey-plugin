@@ -33,7 +33,6 @@
   },
   "author": "amerk <a1argus@gmail.com>",
   "browserslist": "> 0.25%, not dead",
-  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
