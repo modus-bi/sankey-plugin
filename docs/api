@@ -15,7 +15,7 @@ CustomCharts
 	skipRender
 	getCacheId
 	globals,
-	muiTheme,
+	hsTheme,
 	locale,
 
     loadDatas,
@@ -35,7 +35,7 @@ CustomCharts
 CustomSettings
     component
     reportlist
-    muiTheme
+    hsTheme
     locale
 
     changeChart
